@@ -854,6 +854,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -931,6 +947,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -10286,6 +10318,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -14860,6 +14908,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -15527,6 +15591,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -18151,6 +18231,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -18223,6 +18319,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -19822,6 +19934,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -22942,6 +23070,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -23020,6 +23164,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -23092,6 +23252,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -27427,6 +27603,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -28277,6 +28469,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -30368,6 +30576,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -30444,6 +30668,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -32922,7 +33162,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bad666da5f480a049ba58c0d297ac7cf, type: 2}
+  - {fileID: 2100000, guid: 3dbcbb288f5c6ba499fa64609c398b6a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34206,6 +34446,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -38091,6 +38347,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -38592,6 +38864,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -42692,6 +42980,22 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
       objectReference: {fileID: 0}
@@ -44467,7 +44771,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bad666da5f480a049ba58c0d297ac7cf, type: 2}
+  - {fileID: 2100000, guid: 3dbcbb288f5c6ba499fa64609c398b6a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52575,6 +52879,22 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: endColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
