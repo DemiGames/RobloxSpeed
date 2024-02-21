@@ -849,6 +849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_8
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -923,6 +927,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -1569,11 +1577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_Name
-      value: NotJumpZone
+      value: CourseCollider
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 24.01
+      value: 30.941687
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalScale.y
@@ -1581,11 +1589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1016.57916
+      value: 1534.6918
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1593,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 482.5792
+      value: 741.6097
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1626,7 +1634,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 222889112}
   m_SourcePrefab: {fileID: 100100000, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
 --- !u!4 &67210826 stripped
 Transform:
@@ -2959,7 +2970,7 @@ GameObject:
   - component: {fileID: 145909675}
   - component: {fileID: 145909674}
   - component: {fileID: 145909673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4612,6 +4623,23 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &222889106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
+  m_PrefabInstance: {fileID: 67210825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &222889112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222889106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f065798419421f343a92d9ba821d4bd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &227585300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6343,11 +6371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1478828073982908353, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -0.439696
       objectReference: {fileID: 0}
     - target: {fileID: 1478828073982908353, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3251.9424
+      value: 3249.3
       objectReference: {fileID: 0}
     - target: {fileID: 1478828073982908353, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6385,9 +6413,25 @@ PrefabInstance:
       propertyPath: rewardText
       value: 
       objectReference: {fileID: 658347052}
+    - target: {fileID: 4973503972040082260, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457009217613732067, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7790795061284622394, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
       propertyPath: m_Name
       value: FinishZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664213802685032266, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141375084558699301, guid: 3e3ff8e0b4f1bde4e9c894a6c13dcb6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7302,7 +7346,7 @@ GameObject:
   - component: {fileID: 404199981}
   - component: {fileID: 404199980}
   - component: {fileID: 404199979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10237,6 +10281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_11
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -11029,6 +11077,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3021867781671553766, guid: 8d86aea3da0803044a29101edc26f08e, type: 3}
   m_PrefabInstance: {fileID: 505832240}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &509379606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1740593590522317317, guid: 4d3c3c2a3b475694c85df4b498b9571e, type: 3}
+  m_PrefabInstance: {fileID: 2075905400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &516929904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11383,7 +11442,7 @@ GameObject:
   - component: {fileID: 519667409}
   - component: {fileID: 519667408}
   - component: {fileID: 519667407}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Border_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13756,7 +13815,7 @@ MonoBehaviour:
   endPositions:
   - {fileID: 606701845}
   - {fileID: 235030516}
-  moveAnimTime: 1.75
+  moveAnimTime: 2.5
   breakInterval: 0
   isPlatformSphere: 0
 --- !u!1001 &556499372
@@ -14796,6 +14855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_18
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -15460,6 +15523,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -17146,7 +17213,7 @@ GameObject:
   - component: {fileID: 742552013}
   - component: {fileID: 742552012}
   - component: {fileID: 742552011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18079,6 +18146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_5
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -18148,6 +18219,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -18731,6 +18806,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1438048679501578416, guid: 7e91e023a0592354d8e36eb81300a6e9, type: 3}
   m_PrefabInstance: {fileID: 831123969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &832783793 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8276511426597739448, guid: 4d3c3c2a3b475694c85df4b498b9571e, type: 3}
+  m_PrefabInstance: {fileID: 2075905400}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &846574633
 GameObject:
@@ -19738,6 +19818,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -22853,6 +22937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_1
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -22927,6 +23015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_14
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -22996,6 +23088,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -27326,6 +27422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_7
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -28173,6 +28273,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -30259,6 +30363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_13
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -30332,6 +30440,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -32747,7 +32859,7 @@ GameObject:
   - component: {fileID: 1370837457}
   - component: {fileID: 1370837456}
   - component: {fileID: 1370837455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -34090,6 +34202,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -37970,6 +38086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_12
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -38468,6 +38588,10 @@ PrefabInstance:
     - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: m_Name
       value: TouchErasedFloor_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
@@ -39217,15 +39341,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1505074982132194838, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_Name
-      value: NotAdsZone
+      value: CourseCollider
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_LocalScale.x
-      value: 16
+      value: 21.0064
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_LocalScale.z
-      value: 821.66864
+      value: 968.4045
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39237,7 +39361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 385.1017
+      value: 458.4855
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
       propertyPath: m_LocalRotation.w
@@ -39270,13 +39394,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1505074982132194838, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1608478044}
   m_SourcePrefab: {fileID: 100100000, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
 --- !u!4 &1608478042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8421312897655332124, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
   m_PrefabInstance: {fileID: 1608478041}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1608478043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505074982132194838, guid: b647c6aa718cbee41ba86013f10c3421, type: 3}
+  m_PrefabInstance: {fileID: 1608478041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608478044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608478043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f065798419421f343a92d9ba821d4bd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1608744271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39759,6 +39903,10 @@ PrefabInstance:
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: aa3f679fbf557884ca9e1aa6db6d9add, type: 2}
+    - target: {fileID: 8813089933597475546, guid: 5c9e789fc7edf044ca21702ff9dcd7fe, type: 3}
+      propertyPath: m_UseGeometry
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -42539,6 +42687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_16
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.5
@@ -43319,7 +43471,7 @@ GameObject:
   - component: {fileID: 1747388986}
   - component: {fileID: 1747388985}
   - component: {fileID: 1747388984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44252,7 +44404,7 @@ GameObject:
   - component: {fileID: 1752503730}
   - component: {fileID: 1752503729}
   - component: {fileID: 1752503728}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -48381,7 +48533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_Name
-      value: NotJumpZone
+      value: CourseCollider
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalScale.x
@@ -48393,11 +48545,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3278.391
+      value: 3277.7356
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48405,7 +48557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1613.5237
+      value: 1613.1213
       objectReference: {fileID: 0}
     - target: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48438,13 +48590,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2008419490}
   m_SourcePrefab: {fileID: 100100000, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
 --- !u!4 &2008419488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8421312897655332124, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
   m_PrefabInstance: {fileID: 2008419487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2008419489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505074982132194838, guid: 7c25c42ed57cdae4fa732dad354a7db3, type: 3}
+  m_PrefabInstance: {fileID: 2008419487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2008419490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008419489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f065798419421f343a92d9ba821d4bd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2010783329
 GameObject:
   m_ObjectHideFlags: 0
@@ -48457,7 +48629,7 @@ GameObject:
   - component: {fileID: 2010783333}
   - component: {fileID: 2010783332}
   - component: {fileID: 2010783331}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Border_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48896,6 +49068,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3021867781671553766, guid: 8d86aea3da0803044a29101edc26f08e, type: 3}
   m_PrefabInstance: {fileID: 2041755084}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2046009939 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2118999356620719974, guid: 4d3c3c2a3b475694c85df4b498b9571e, type: 3}
+  m_PrefabInstance: {fileID: 2075905400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2068515664 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3769711029495900911, guid: 4d3c3c2a3b475694c85df4b498b9571e, type: 3}
@@ -52389,6 +52572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TouchErasedFloor_19
       objectReference: {fileID: 0}
+    - target: {fileID: 2515523591381747536, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3534247487048412203, guid: e2758c5250a0bfa429eaee86ff431c07, type: 3}
       propertyPath: eraseInterval
       value: 0.4
@@ -53094,6 +53281,10 @@ PrefabInstance:
       propertyPath: closeSettingsButton
       value: 
       objectReference: {fileID: 1557471561}
+    - target: {fileID: 4859730330145418091, guid: 3f4be80d1cdbdf94b8e83fe931341c64, type: 3}
+      propertyPath: courseProgressCanvas
+      value: 
+      objectReference: {fileID: 832783793}
     - target: {fileID: 4886719116199948366, guid: 3f4be80d1cdbdf94b8e83fe931341c64, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -56846,6 +57037,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8510169413890320480, guid: b0eba496c8b5a52438d41b30cf611dc2, type: 3}
+      propertyPath: progressText
+      value: 
+      objectReference: {fileID: 509379606}
+    - target: {fileID: 8510169413890320480, guid: b0eba496c8b5a52438d41b30cf611dc2, type: 3}
+      propertyPath: uiNavigation
+      value: 
+      objectReference: {fileID: 579415885}
+    - target: {fileID: 8510169413890320480, guid: b0eba496c8b5a52438d41b30cf611dc2, type: 3}
+      propertyPath: progressSlider
+      value: 
+      objectReference: {fileID: 2046009939}
     - target: {fileID: 9089536009564091800, guid: b0eba496c8b5a52438d41b30cf611dc2, type: 3}
       propertyPath: m_Name
       value: SpeedControl

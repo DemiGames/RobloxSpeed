@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1604114020591743300}
   - component: {fileID: 4680761269651485117}
   - component: {fileID: 3607719323040887947}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: CoinImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4954444075017315464}
   - component: {fileID: 4060149261857328514}
   - component: {fileID: 3593800528896068189}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: PriceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,6 +218,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 197673492998922310, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 197673492998922310, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -274,12 +278,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 760165631761313037, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 760165631761313037, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 966058000791628231, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 966058000791628231, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716373760109865503, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1716373760109865503, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -305,6 +321,10 @@ PrefabInstance:
       propertyPath: unlockPriceText
       value: 
       objectReference: {fileID: 3593800528896068189}
+    - target: {fileID: 2766096700367729671, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2766096700367729671, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -354,6 +374,10 @@ PrefabInstance:
       value: Level Swap Gate_2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5128623138872553242, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128623138872553242, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -362,6 +386,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 88cec2b24b17ece43a2767714867c9bf, type: 2}
     - target: {fileID: 5963602893041933162, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963602893041933162, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -369,6 +397,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 88cec2b24b17ece43a2767714867c9bf, type: 2}
+    - target: {fileID: 7608345597853263124, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7608345597853263124, guid: 2efa5006d07fd8c42b39af1c97573eca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647

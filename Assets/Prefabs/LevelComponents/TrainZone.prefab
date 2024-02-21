@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8174726416204767532}
   - component: {fileID: 1955969996904829879}
   - component: {fileID: 4213054152423074381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7208807368395086953}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 7203094378801142398}
   - component: {fileID: 2873209596138933796}
   - component: {fileID: 5222629670445628568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Window_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2683273833448253212}
   - component: {fileID: 7462710295281218528}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8484658982857697921}
   - component: {fileID: 2427860136742938633}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8310061061851455029}
   - component: {fileID: 4207857432836681803}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1889795227372949500}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5772982823865744252}
   - component: {fileID: 9169912429783302758}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8116383433087010208}
   - component: {fileID: 6144269793473953134}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8106664492931652089}
   - component: {fileID: 6484965252286983856}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,7 +897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1612938448784945070}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6084821517957789726}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +963,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1792913816417648587}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041712689192147124}
   - component: {fileID: 5573689934596128554}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1131,7 +1131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6560062157267070318}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1163,7 +1163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7667518871437390488}
   - component: {fileID: 7062116579075348570}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825847988669655376}
   - component: {fileID: 7493036133687344229}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7043168046504709521}
   - component: {fileID: 8762621194597138206}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1481,7 +1481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5961439302632844829}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1514,7 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 724957939431378369}
   - component: {fileID: 8530445763653134087}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1604,7 +1604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 743816204682472325}
   - component: {fileID: 5570642924575442712}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1739,7 +1739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8200122086468593183}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1771,7 +1771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4464211127493018839}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 3898444670193592102}
   - component: {fileID: 812561184530192307}
   - component: {fileID: 8951764172124788960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1905,7 +1905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8516613912418948485}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1939,7 +1939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3089065031417945727}
   - component: {fileID: 8826858817212878745}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2033,7 +2033,7 @@ GameObject:
   - component: {fileID: 2167547807425845668}
   - component: {fileID: 3119128546068757068}
   - component: {fileID: 4536059962673642115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2138,7 +2138,7 @@ GameObject:
   - component: {fileID: 6956904042236415402}
   - component: {fileID: 5113936023674745255}
   - component: {fileID: 4655160810818611187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2220,7 +2220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8688835955401141884}
   - component: {fileID: 2980541216528173350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TrainZoneCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2293,7 +2293,7 @@ GameObject:
   - component: {fileID: 2720809572600037224}
   - component: {fileID: 9156311515914312016}
   - component: {fileID: 693169554084522413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2376,7 +2376,7 @@ GameObject:
   - component: {fileID: 2354345893722738094}
   - component: {fileID: 8959551482550394505}
   - component: {fileID: 5357896157205620210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2457,7 +2457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243263621616212137}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2490,7 +2490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3380307023361009818}
   - component: {fileID: 6416754874848215857}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: NPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2550,7 +2550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3923149480864816759}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2583,7 +2583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2745912460456477015}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2616,7 +2616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112821098584878452}
   - component: {fileID: 3179532436345663342}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2751,7 +2751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2216585330812847194}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2783,7 +2783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8780716659328943830}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2816,7 +2816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2928923822305573493}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2850,7 +2850,7 @@ GameObject:
   - component: {fileID: 2018678159659466062}
   - component: {fileID: 1349769223978743486}
   - component: {fileID: 3947627553567567042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2952,7 +2952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8672897697558065603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2998,7 +2998,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566949139933358255}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3029,7 +3029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5375169811546449022}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3064,7 +3064,7 @@ GameObject:
   - component: {fileID: 4472727202838511399}
   - component: {fileID: 7394405804728594951}
   - component: {fileID: 4441218164113374575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TrainTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7223704690613114813}
   - component: {fileID: 2527224553772687423}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3302,7 +3302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3965143506401993530}
   - component: {fileID: 5814794943261928747}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: NPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3362,7 +3362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3800517456311456132}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3395,7 +3395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8381296053473384646}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3430,7 +3430,7 @@ GameObject:
   - component: {fileID: 6723071711712463058}
   - component: {fileID: 1274223628951351198}
   - component: {fileID: 307487672533384682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3511,7 +3511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1055029680821219324}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3545,7 +3545,7 @@ GameObject:
   - component: {fileID: 5602772442498988845}
   - component: {fileID: 6427670102349791251}
   - component: {fileID: 6498421500423321879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3626,7 +3626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1688555790705389806}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3662,7 +3662,7 @@ GameObject:
   - component: {fileID: 7704956540553445602}
   - component: {fileID: 6143024304012786556}
   - component: {fileID: 3001573298604473093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3754,7 +3754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6106502880649421893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3789,7 +3789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3232595752041132549}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3822,7 +3822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564905052615903339}
   - component: {fileID: 4359122834532119696}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3959,7 @@ GameObject:
   - component: {fileID: 5783510543554791180}
   - component: {fileID: 4400213591558546410}
   - component: {fileID: 8501334806340599906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4041,7 +4041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892690594653213128}
   - component: {fileID: 6986662987119696657}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4130,7 +4130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4260690916343778249}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4162,7 +4162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8802336537364988691}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4194,7 +4194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 871527664359722866}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,7 +4230,7 @@ GameObject:
   - component: {fileID: 5794728692976997995}
   - component: {fileID: 6040548928871992799}
   - component: {fileID: 8615019456087725502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TrainZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4308,7 +4308,7 @@ GameObject:
   - component: {fileID: 658658002105765489}
   - component: {fileID: 6714248312755272137}
   - component: {fileID: 7397600522559950041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4389,7 +4389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2926942261740791002}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4421,7 +4421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4031109236258265604}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4454,7 +4454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366031392734600053}
   - component: {fileID: 3949190784944981823}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4553,7 +4553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2740964318135329357}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4586,7 +4586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6536824704494657172}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4618,7 +4618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2999331279184869206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OutsidePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4649,7 +4649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053554264482652712}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4683,7 +4683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721557761587597220}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4716,7 +4716,7 @@ GameObject:
   - component: {fileID: 4680987454319891098}
   - component: {fileID: 1657157218422077128}
   - component: {fileID: 4370899967112123281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,7 +4797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4555143108678503078}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4829,7 +4829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5471365704055569645}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4861,7 +4861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7834057923647057407}
   - component: {fileID: 4107327290493928316}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4960,7 +4960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062157583440421961}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4994,7 +4994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2822787542162181660}
   - component: {fileID: 183596057710557169}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5085,7 +5085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6212044512549438565}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5117,7 +5117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2523564403863574283}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5153,7 +5153,7 @@ GameObject:
   - component: {fileID: 1386962159822689587}
   - component: {fileID: 1016507298474769993}
   - component: {fileID: 9055714975642649601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5222,7 +5222,7 @@ GameObject:
   - component: {fileID: 3676352412808108686}
   - component: {fileID: 9184054818789172267}
   - component: {fileID: 6053637803966279718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Window_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5303,7 +5303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4627864360175127985}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5335,7 +5335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2210158851374207791}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5367,7 +5367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176400080738471090}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5398,7 +5398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6296495728255652995}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5429,7 +5429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6362399983420134200}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5460,7 +5460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6126343058989086126}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: InsidePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5491,7 +5491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6188463083289071024}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5523,7 +5523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9023546916800620369}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5555,7 +5555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7374496586136032004}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5586,7 +5586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6154831381965627480}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5620,7 +5620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 639873480947803827}
   - component: {fileID: 4567495529033956009}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: Trail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5755,7 +5755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6558121324107398669}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5787,7 +5787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3363652164721692435}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5819,7 +5819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5340078634847354618}
   - component: {fileID: 1828601044236920307}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: TheAmazingSpiderman2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5913,7 +5913,7 @@ GameObject:
   - component: {fileID: 2292710443511775079}
   - component: {fileID: 4313836417716086582}
   - component: {fileID: 6059653004397267054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6015,7 +6015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8501772159617924925}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6048,7 +6048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 711384955046747463}
-  m_Layer: 13
+  m_Layer: 6
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6082,7 +6082,7 @@ GameObject:
   - component: {fileID: 9032488368306213725}
   - component: {fileID: 5492741254063642871}
   - component: {fileID: 2931852756231360892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6168,7 +6168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8559952733568227351, guid: b62e01d252bc0234b8baba36bf8d05b5, type: 3}
       propertyPath: m_Layer
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8559952733568227351, guid: b62e01d252bc0234b8baba36bf8d05b5, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6318,7 +6318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_Layer
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6466,7 +6466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_Layer
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6534,7 +6534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3931882039481251360, guid: 6943657e1d12a164eb87ba9e10a163ba, type: 3}
       propertyPath: m_Layer
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3931882039481251360, guid: 6943657e1d12a164eb87ba9e10a163ba, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6684,7 +6684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_Layer
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 548350363202c5d449be57a24441d625, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6835,8 +6835,16 @@ PrefabInstance:
       value: Area_circles_blue
       objectReference: {fileID: 0}
     - target: {fileID: 4823518202205099639, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823518202205099639, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699513170855063700, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6699513170855063700, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: m_IsActive
@@ -6845,6 +6853,10 @@ PrefabInstance:
     - target: {fileID: 6699513170855063700, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000157919601340118, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7000157919601340118, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: m_IsActive
@@ -6869,6 +6881,10 @@ PrefabInstance:
     - target: {fileID: 7896267444938008327, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896267444938008328, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7896267444938008328, guid: cdc919a43bba95b4a8b6916b6aa5321d, type: 3}
       propertyPath: m_StaticEditorFlags

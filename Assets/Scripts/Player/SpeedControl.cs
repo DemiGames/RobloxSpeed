@@ -179,4 +179,8 @@ public class SpeedControl : MonoBehaviour
         }
     }
     
+    public int GetLevelKoeficient()
+    {
+        return levelSpeedKoeficient;
+    }
 }

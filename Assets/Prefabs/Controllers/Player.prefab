@@ -48895,7 +48895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _groundMask:
     serializedVersion: 2
-    m_Bits: 513
+    m_Bits: 321
   _groundLimit: 50
   _stepOffset: 0.1
   _ledgeOffset: 0

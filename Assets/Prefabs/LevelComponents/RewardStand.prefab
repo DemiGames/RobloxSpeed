@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6035533669943393655}
   - component: {fileID: 7218129945141678279}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: RewardStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 2523367147041779478}
   - component: {fileID: 6232849433289268002}
   - component: {fileID: 6654730064974853502}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: CoinImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 7772331416096798730}
   - component: {fileID: 4304878894281326946}
   - component: {fileID: 4834363118239053156}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Cube_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 4783770819417833750}
   - component: {fileID: 8733134821266984512}
   - component: {fileID: 6160048248245819318}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: RewardCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 3017231027088741099}
   - component: {fileID: 8955090723913609739}
   - component: {fileID: 7608124218147280249}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,7 +408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5451766033954510789}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 8329417708364851364}
   - component: {fileID: 2388074734851662656}
   - component: {fileID: 2921388385339129023}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: RewardText
   m_TagString: Untagged
   m_Icon: {fileID: 0}

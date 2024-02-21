@@ -23,6 +23,8 @@ public class UINavigation : MonoBehaviour
     private Canvas settingsCanvas;
     [SerializeField]
     private Canvas joystickCanvas;
+    [SerializeField]
+    private Canvas courseProgressCanvas;
     [Header("UI elements")]
     [SerializeField]
     private Button settingsButton;
@@ -71,6 +73,7 @@ public class UINavigation : MonoBehaviour
         ToggleCanvas(skinShopCanvas, false);
         ToggleCanvas(openLevelCanvas, false);
         ToggleCanvas(joystickCanvas, false);
+        ToggleCanvas(courseProgressCanvas, true);
         ToggleAdvAlertCanvas(false);
         ToggleSettingsCanvas(false);
         ToggleJoystickCanvas(true);
@@ -110,8 +113,15 @@ public class UINavigation : MonoBehaviour
         if(IsMobileController.IsMobile)
             ToggleCanvas(joystickCanvas, state);        
     }
+    public void ToggleCourseProgressCanvas(bool state)
+    {
+        if (state)
+            courseProgressCanvas.GetComponent<CourseProgressAnimation>().ShowProgressCourse();
+        else courseProgressCanvas.GetComponent<CourseProgressAnimation>().HideProgressCourse();
 
-    void OpenSettings()
+
+    }
+        void OpenSettings()
     {
         if (OnAdvFreeZone.onAdvFreeZone || AdvManager.isAdvOpen)
             return;

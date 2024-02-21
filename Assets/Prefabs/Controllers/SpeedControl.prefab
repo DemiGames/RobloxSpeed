@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7912344356622532685}
   - component: {fileID: 528527573422283968}
   - component: {fileID: 2460177062308097370}
+  - component: {fileID: 8510169413890320480}
   m_Layer: 0
   m_Name: SpeedControl
   m_TagString: Untagged
@@ -68,3 +69,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   freeLookCamera: {fileID: 0}
   sensivitySlider: {fileID: 0}
+--- !u!114 &8510169413890320480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9089536009564091800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 596bc8aac91414f4cb58156ee72c16b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiNavigation: {fileID: 0}
+  speedControl: {fileID: 528527573422283968}
+  progressSlider: {fileID: 0}
+  progressText: {fileID: 0}
