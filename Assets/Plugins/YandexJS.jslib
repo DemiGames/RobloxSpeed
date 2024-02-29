@@ -85,12 +85,13 @@ mergeInto(LibraryManager.library, {
     ysdk.adv.showFullscreenAdv({
       callbacks: {       
          onOpen: () => {
-          myGameInstance.SendMessage("SoundController", "MuteGame");         
+          myGameInstance.SendMessage("SoundController", "MuteGame");   
           console.log('Adv open.');
         },
         onClose: function(wasShown) {
           console.log("Adv closed");
           myGameInstance.SendMessage('AdvManager', 'ResetTimer');
+          myGameInstance.SendMessage('AdvManager', 'AdvContinueGame');   
           myGameInstance.SendMessage("SoundController", "UnmuteGame");
         },
         onError: function(error) {
@@ -106,7 +107,7 @@ mergeInto(LibraryManager.library, {
     ysdk.adv.showRewardedVideo({
       callbacks: {
         onOpen: () => {
-          myGameInstance.SendMessage("SoundController", "MuteGame");         
+          myGameInstance.SendMessage("SoundController", "MuteGame");     
           console.log('VideoReward ad open.');
         },
         onRewarded: () => {
@@ -114,6 +115,7 @@ mergeInto(LibraryManager.library, {
         },
         onClose: () => {
           myGameInstance.SendMessage("SkinsShop","UnlockRewardSkin");  
+          myGameInstance.SendMessage('AdvManager', 'AdvContinueGame');  
           myGameInstance.SendMessage("SoundController", "UnmuteGame");
           console.log('VideoReward ad closed');
         }, 

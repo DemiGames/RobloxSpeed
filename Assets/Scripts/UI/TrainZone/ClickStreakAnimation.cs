@@ -10,13 +10,13 @@ public class ClickStreakAnimation : MonoBehaviour
     [Header("Animation Settings")]
     [Header("Rotation Animation")]
     [SerializeField]
-    private float rotationDuration;
+    private float rotationDuration = 0.1f;
     [SerializeField]
     private Ease rotationEase;
     List<Sequence> rotationSequences = new List<Sequence>(3);
     [Header("Scale Animation")]
     [SerializeField]
-    private float scaleDuration;
+    private float scaleDuration = 0.5f;
     [SerializeField]
     private float[] TextsTargetScale;
     [SerializeField]

@@ -1,5 +1,6 @@
 using Cinemachine;
 using DG.Tweening;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,8 +19,10 @@ public class TrainZone : MonoBehaviour
     private Transform playerOutsidePoint;
     [SerializeField]
     private CinemachineVirtualCamera trainZoneCamera;
-  
+
     [Header("Clicker")]
+    [SerializeField]
+    private Button clickButton;
     private float clickInterval = 0.6f;
     private int streakMultiply = 1;
     private float timeAfterClick;
@@ -38,10 +41,12 @@ public class TrainZone : MonoBehaviour
     private void OnEnable()
     {
         quitButton.onClick.AddListener(RemovePlayerFromTrainZone);
+        clickButton.onClick.AddListener(OnClickScreen);
     }
     private void OnDisable()
     {
         quitButton.onClick.RemoveListener(RemovePlayerFromTrainZone);
+        clickButton.onClick.RemoveListener(OnClickScreen);
     }
     private void Awake()
     {
@@ -50,28 +55,45 @@ public class TrainZone : MonoBehaviour
         speedControl = FindObjectOfType<SpeedControl>();
         soundController = FindObjectOfType<SoundController>();
     }
-
-    void Update()
+    private void Start()
     {
-        Clicker();
+        if (IsMobileController.IsMobile)
+            clickButton.gameObject.SetActive(true);
+        else
+            clickButton.gameObject.SetActive(false);
     }
- 
-    void Clicker()
+
+    void LateUpdate()
     {
-        if(CheckButtonClick() && isPlayerTrain)
+        if (!isPlayerTrain)
+            return;
+        if (!CheckButtonClick())
+            return;
+
+        Click();
+    }
+
+    void OnClickScreen()
+    {
+        Click();
+    }
+    void Click()
+    {
+        isClickCount = true;
+        speedControl.ActiveIncreaseCurrentSpeed(streakMultiply);
+        if (timeAfterClick <= clickInterval)
         {
-            speedControl.ActiveIncreaseCurrentSpeed(streakMultiply);
-            isClickCount = true;
-            if (timeAfterClick <= clickInterval)
-            {
-                clickStreak++;
-                ClickStreakCheck();
-                timeAfterClick = 0;
-                FillImage();
-            }          
+            clickStreak++;
+            ClickStreakCheck();
+            timeAfterClick = 0;
+            FillImage();
+            ChangeAnimMultiplier();
         }
-        if(isClickCount)
-        {          
+    }
+    private void FixedUpdate()
+    {
+        if (isClickCount)
+        {
             timeAfterClick += Time.deltaTime;
             if (timeAfterClick >= clickInterval)
             {
@@ -80,26 +102,28 @@ public class TrainZone : MonoBehaviour
                 streakMultiply = 1;
                 isClickCount = false;
                 FillImage();
+                ChangeAnimMultiplier();
                 clickStreakAnimation.DeactivateStreakText(0);
                 clickStreakAnimation.DeactivateStreakText(1);
                 clickStreakAnimation.DeactivateStreakText(2);
-            }          
-        }                
+            }
+        }
     }
 
     bool CheckButtonClick()
     {
-        return ((!IsMobileController.IsMobile && Input.GetKeyDown(KeyCode.Space))
-            || (IsMobileController.IsMobile) && Input.GetMouseButtonDown(0));
+        return !IsMobileController.IsMobile && Input.GetKeyDown(KeyCode.Space);
     }
     void FillImage()
     {
         float targetValue = 1 - ((float)clickStreak / maxClickStreak);
-        Tween fillTween = fillImage.DOFillAmount(targetValue, 0.02f);
-        fillTween.SetAutoKill();
-        fillTween.Play();
+        fillImage.fillAmount = targetValue;
     }
-
+    void ChangeAnimMultiplier()
+    {
+        float animationMultiplier = Mathf.Clamp(clickStreak / 10f, 1, 4);
+        playerController.MuliplierTrainSpeed(animationMultiplier);
+    }
     void ClickStreakCheck()
     {
         switch (clickStreak)
@@ -128,7 +152,9 @@ public class TrainZone : MonoBehaviour
 
     public void MovePlayerToTrainZone()
     {
-        PlayerController.IsBusy = true; 
+        PlayerController.IsBusy = true;
+        CursorLocking.LockCursor(false);
+        Input.multiTouchEnabled = false;
         soundController.MakeClickSound();
         playerController.TrainSpeed(true);            
         uiNavigation.ToggleTrainCanvas(true);
@@ -137,12 +163,14 @@ public class TrainZone : MonoBehaviour
         playerController.transform.eulerAngles = playerInsidePoint.eulerAngles;
         trainZoneCamera.gameObject.SetActive(true);
         isPlayerTrain = true;
-        CursorLocking.LockCursor(false);
+        
     }
 
     void RemovePlayerFromTrainZone()
     {
         PlayerController.IsBusy = false;
+        CursorLocking.LockCursor(true);
+        Input.multiTouchEnabled = true;
         soundController.MakeClickSound();
         isPlayerTrain = false;
         trainZoneCamera.gameObject.SetActive(false);
@@ -151,7 +179,7 @@ public class TrainZone : MonoBehaviour
         playerController.TrainSpeed(false);
         playerController.transform.SetPositionAndRotation(playerOutsidePoint.position,
             playerOutsidePoint.rotation);
-        CursorLocking.LockCursor(true);
+        
         
     }
 }

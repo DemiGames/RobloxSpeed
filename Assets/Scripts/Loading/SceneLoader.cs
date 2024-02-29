@@ -29,7 +29,7 @@ YandexSDK.dataIsLoaded = true;
             gameLoader.SetActive(true);
         }
         if(isSdkReady && YandexSDK.dataIsLoaded)
-        {
+        {           
             SceneManager.LoadScene(1);
         }
     }

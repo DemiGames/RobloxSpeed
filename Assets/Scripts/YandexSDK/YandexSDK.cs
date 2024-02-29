@@ -87,9 +87,7 @@ public class YandexSDK : MonoBehaviour
 
     static public void ShowRewardedADV()
     {
-
 #if !UNITY_EDITOR
-        AdvManager.isAdvOpen = true;
         ShowRewardedAdvExtern();
 #else
         Debug.Log("Реклама с наградой");
@@ -98,7 +96,6 @@ public class YandexSDK : MonoBehaviour
     static public void ShowADV()
     {
 #if !UNITY_EDITOR
-        AdvManager.isAdvOpen = true;
         ShowIntersitialAdvExtern();
 #else
         Debug.Log("Реклама");

@@ -60,6 +60,9 @@ public class AdvAlert : MonoBehaviour
         advAlertPanel.GetComponent<Animator>().SetTrigger("isHide");
         uiNavigation.ToggleAdvAlertCanvas(false);        
         isTimerGoing = false;
+#if UNITY_EDITOR
+        advManager.AdvContinueGame();
+#endif
     }
 
     void ResetCounterOnPanel()

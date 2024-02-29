@@ -30,10 +30,7 @@ public class PlayerController : MonoBehaviour
 
 
     }
-    void Start()
-    {
-        
-    }
+
 
     private void LateUpdate()
     {
@@ -63,5 +60,8 @@ public class PlayerController : MonoBehaviour
         BlockPlayersInput(state);
         playerAnimatorController.PlayTrainAnimation(state);
     }
-
+    public void MuliplierTrainSpeed(float multiplier)
+    {
+        playerAnimatorController.MultiplierTrainAnimation(multiplier);
+    }
 }

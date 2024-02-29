@@ -99,18 +99,20 @@ public class SoundController : MonoBehaviour
     private void OnApplicationFocus(bool focus)
     {       
         Silence(!focus);
+#if !UNITY_EDITOR
+        if(AdvManager.isAdvOpen)
+            return;
         if (!focus)
             Time.timeScale = 0;
         else Time.timeScale = 1;
-#if !UNITY_EDITOR
-        if (!focus)
-            Time.timeScale = 0;
 #endif
     }
     private void OnApplicationPause(bool pause)
     {
         Silence(pause);
 #if !UNITY_EDITOR
+        if(AdvManager.isAdvOpen)
+            return;
         if (pause)
             Time.timeScale = 0;
         else Time.timeScale = 1;
@@ -122,13 +124,12 @@ public class SoundController : MonoBehaviour
     }
 
     public void MuteGame()
-    {
+    {      
         AudioListener.volume = 0;
         Time.timeScale = 0;
     }
     public void UnmuteGame()
     {
-        AdvManager.isAdvOpen = false;
         AudioListener.volume = 1;
         Time.timeScale = 1;
     }
