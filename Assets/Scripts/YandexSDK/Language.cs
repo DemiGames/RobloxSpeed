@@ -10,7 +10,7 @@ public enum LanguageName
 
 public class Language : MonoBehaviour
 {
-    public string currentLanguage;
+    private string currentLanguage;
     public static Language Instance;
     public LanguageName languageName;
 

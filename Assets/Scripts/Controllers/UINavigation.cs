@@ -1,3 +1,4 @@
+using ECM.Controllers;
 using System.Net;
 using UnityEngine;
 using UnityEngine.UI;
@@ -33,7 +34,7 @@ public class UINavigation : MonoBehaviour
 
     PlayerController playerController;
     SoundController soundController;
-    public static bool isSettingsOpen;
+    public static bool isSettingsOpen = false;
     private void OnEnable()
     {
         settingsButton.onClick.AddListener(OpenSettings);
@@ -44,7 +45,17 @@ public class UINavigation : MonoBehaviour
         settingsButton.onClick.RemoveListener(OpenSettings);
         closeSettingsButton.onClick.AddListener(CloseSettings);
     }
-
+   
+    private void Awake()
+    {
+        Initialize();
+        playerController = FindObjectOfType<PlayerController>();
+        soundController = FindObjectOfType<SoundController>();
+    }
+    private void Start()
+    {
+        isSettingsOpen = false;
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -57,13 +68,6 @@ public class UINavigation : MonoBehaviour
             CloseSettings();
         }
     }
-    private void Awake()
-    {
-        Initialize();
-        playerController = FindObjectOfType<PlayerController>();
-        soundController = FindObjectOfType<SoundController>();
-    }
-
     void Initialize()
     {
         ToggleCanvas(mainCanvas, true);
@@ -121,7 +125,8 @@ public class UINavigation : MonoBehaviour
     }
     void OpenSettings()
     {
-        if (AdvZone.inNoAdvZone || AdvManager.isAdvOpen)
+        if (AdvZone.inNoAdvZone || AdvManager.isAdvOpen 
+            || playerController.GetComponent<BaseCharacterController>().isBlockInput)
             return;
         isSettingsOpen = true;
         soundController.MakeClickSound();

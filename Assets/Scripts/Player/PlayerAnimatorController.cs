@@ -9,7 +9,11 @@ public class PlayerAnimatorController : MonoBehaviour
     {
 
     }
-  
+    private void Start()
+    {
+        MultiplierTrainAnimation(1);
+    }
+
     public void SetSpeedMultiplier(float speedMultiply)
     {
         animator.SetFloat("speedMultipler", speedMultiply);
